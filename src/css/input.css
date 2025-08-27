@@ -13,8 +13,15 @@
     --color-buscar: rgba(96, 133, 155, 0.979);
     --color-buscaricon: #68C0F2;
 
-    --color-destaque1: #1B334F;
-    --color-destaque2: #213E59;
+    --color-destaque1: #192E45;
+    --color-destaque2: #223D58;
+    --color-destaque3: #0B1620;
+    --color-destaque4: #1D354C;
+    --color-desconto: #4C6B22;
+    --color-letradesconto: #A4EE11;
+    --color-letrapreco: #BEE336;
+    --color-preco: #344654;
+    --color-letraprecooriginal:#738895;
     --color-maincontainer: #1B2838;
 
 
@@ -22,6 +29,7 @@
     --spacing-S8: 8px;
     --spacing-S25: 25px;
     --spacing-S650: 650px;
+    --spacing-S901: 901px;
 }
 
 .box-shadow {
@@ -32,3 +40,6 @@
     background: linear-gradient(90deg, #2f8cd8 35.38%,  #102572 100%);
 }
 
+.destaques-items {
+    background: linear-gradient(90deg, #2f8cd8 35.38%,  #102572 100%);
+}
