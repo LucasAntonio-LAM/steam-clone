@@ -1,0 +1,34 @@
+@import "tailwindcss";
+
+@theme {
+    --color-header: #171A21;
+    --color-degrade1: #3e6796eb;
+    --color-degrade2: #3a78b1cc;
+    --color-degrade3: #0f216e;
+
+    --color-navhover1: #2F7FC1;
+    --color-navhover2: #2769AF;
+    --color-navhover3: #102572;
+
+    --color-buscar: rgba(96, 133, 155, 0.979);
+    --color-buscaricon: #68C0F2;
+
+    --color-destaque1: #1B334F;
+    --color-destaque2: #213E59;
+    --color-maincontainer: #1B2838;
+
+
+    --spacing-S13: 13px;
+    --spacing-S8: 8px;
+    --spacing-S25: 25px;
+    --spacing-S650: 650px;
+}
+
+.box-shadow {
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.4);
+}
+
+.hover-items-nav:hover {
+    background: linear-gradient(90deg, #2f8cd8 35.38%,  #102572 100%);
+}
+
