@@ -1,5 +1,5 @@
 @import "tailwindcss";
-@import 'tailwind-scrollbar';
+@plugin 'tailwind-scrollbar';
 
 @theme {
     --color-header: #171A21;
@@ -22,6 +22,8 @@
     --color-letradesconto: #A4EE11;
     --color-letrapreco: #BEE336;
     --color-preco: #344654;
+    --color-scrollbar: #434953;
+    --color-scrollbarhover: #4E5157;
     --color-letraprecooriginal:#738895;
     --color-maincontainer: #1B2838;
 
@@ -31,6 +33,7 @@
     --spacing-S25: 25px;
     --spacing-S650: 650px;
     --spacing-S901: 901px;
+    --spacing-S1200: 1200px;
 }
 
 .box-shadow {
