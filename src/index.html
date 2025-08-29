@@ -10,8 +10,8 @@
 <body>
 
     <!-- HEADER -->
-    <header class="shadow-lg">
-        <div class="grid grid-cols-3 flex-wrap bg-header px-2 py-1 h-16 items-center shadow-xl/80">
+    <header>
+        <div class="grid grid-cols-3 flex-wrap bg-header px-2 py-1 h-16 items-center shadow-xl/30 w-full fixed z-10">
             <div class="grid-cols-1">
             <img src="img/header_menu_hamburger.png" alt="hamburguer menu" class="h-8 cursor-pointer">
             </div>
@@ -21,7 +21,7 @@
         </div>
 
     <!-- NAV MENU -->
-        <nav class="flex flex-col bg-gradient-to-r from-degrade1 from-11% via-degrade2 via-25% to-degrade3 to-80% box-shadow pb-1">
+        <nav class="flex flex-col bg-gradient-to-r from-degrade1 from-11% via-degrade2 via-25% to-degrade3 to-80% box-shadow pb-1 pt-16">
             <ul class="text-white font-medium text-sm">
                 <div class="flex p-2 pl-3 items-center hover-items-nav hover:shadow-sm cursor-pointer">
                     <img src="img/img-conta-steam.png" alt="Conta Steam" class="h-4 shadow-md/50 mr-2">
@@ -34,21 +34,21 @@
                 <li class="p-2 pl-3 hover-items-nav cursor-pointer text-shadow-sm/15 hover:shadow-sm">Laboratório</li>
             </ul>
 
-            <div class="flex mt-2 mr-2 ml-2 relative">
+            <div class="flex mt-2 mr-2 ml-2 relative z-0">
                 <input type="text" placeholder="Buscar" class="relative w-full bg-buscar rounded italic outline-1 outline-gray-800 hover:outline-1 hover:outline-white placeholder-gray-950 text-lg">
                 <img src="img/search_icon_btn.png" alt="Botão de pesquisa" class="absolute cursor-pointer right-0 bottom-0 h-7">
             </div>
         </nav>
-
+    </header>
         <!-- MAIN CONTENT -->
         <main>
-
-            <div class="bg-linear-to-t from-destaque2 from-15% to-destaque1 to-80% pt-8 pb-8 flex flex-nowrap">
+            <!-- DESTAQUES E RECOMENDADOS -->
+            <div class="bg-linear-to-t from-destaque2 from-15% to-destaque1 to-80% pt-8 pb-8 flex flex-nowrap pr-3 pl-2">
                 
                 <div class="flex overflow-auto pb-4 scrollbar-thin scrollbar-thumb-scrollbar scrollbar-track-destaque2">
 
                     <div class="flex flex-col flex-nowrap">
-                        <h3 class="text-white font-semibold pl-2 text-sm">DESTAQUES E RECOMENDADOS</h3>
+                        <h3 class="text-white font-semibold pl-1 text-sm">DESTAQUES E RECOMENDADOS</h3>
                         <div class="flex flex-col w-130 m-1 shadow-xl/35 pb-2">
                             <img src="img/ghostrecon-breakpoint.png" alt="Jogo em destaque" class="w-150 h-80">
                             <h1 class="text-white font-bold ml-1 mt-1">Tom Clancy's Ghost Recon® Breakpoint</h1>
@@ -203,7 +203,64 @@
                 </div>
                 
             </div>
+
+            <!-- DESCONTOS E EVENTOS -->
+
+            <div class="bg-maincolor pl-2 pr-3 pt-1">
+                
+                <div>
+                    <img src="img/mixfallgameshowcase.jpg" alt="Showcase" class="box-shadow-showcase mt-1 mb-7">
+                </div>
+
+                <div class="flex flex-nowrap items-center justify-between">
+                    <h3 class="text-white font-semibold pb-1 text-sm">DESCONTOS E EVENTOS</h3>
+                    <h2 class="text-gray-500 font-semibold text-sm cursor-pointer">Mais<i class="fa-solid fa-angle-right"></i></h2>
+                </div>
+                
+                <div class="flex flex-nowrap overflow-auto pb-4 scrollbar-thin scrollbar-thumb-scrollbar scrollbar-track-destaque2">
+
+                    <div class="flex flex-nowrap flex-col mr-3">
+                        <img src="img/spotlight_image_nomanssky.png" alt="Jogo em destaque" class="relative z-30">
+                        <div class="flex flex-col spotlight-fundo bg-no-repeat relative pb-7 top-0 h-full w-78">
+                            <h3 class="text-white font-semibold mt-2 ml-4 relative top-0 z-15">OFERTA DO FIM DE SEMANA</h3>
+                            <h3 class="text-gray-300 mt-2 ml-4 font-extralight text-sm relative top-0 z-15">Oferta válida até 8 de set. ás 14:00.</h3>
+                            <div class="flex mt-2 ml-4">
+                                <div class="flex items-center bg-preco relative top-0 z-15">
+                                    <p class="bg-desconto text-letradesconto p-1 text-3xl font-bold">-60%</p>
+                                    <div class="flex flex-col justify-end">
+                                        <p class="line-through ml-7 text-letraprecooriginal text-xs pr-2">R$ 162,00</p>
+                                        <p class="text-shadow-md ml-4 text-letrapreco font-medium mr-2">R$ 64,80</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="flex flex-nowrap flex-col mr-3">
+                        <img src="img/spotlight_image_nightingale.png" alt="Jogo em destaque" class="relative z-30 w-78">
+                        <div class="flex flex-col spotlight-fundo bg-no-repeat relative top-0 h-full w-78">
+                            <h3 class="text-white font-semibold mt-2 ml-4 relative top-0 z-15">FIM DE SEMANA GRATUITO</h3>
+                            <h3 class="text-gray-300 mt-2 ml-4 font-extralight text-sm relative top-0 z-15">Oferta válida até 11 de set. ás 14:00.</h3>
+                            <div class="flex mt-2 ml-4">
+                                <div class="flex items-center bg-preco relative top-0 z-15">
+                                    <p class="bg-desconto text-letradesconto p-1 text-3xl font-bold">-50%</p>
+                                    <div class="flex flex-col justify-end">
+                                        <p class="line-through ml-7 text-letraprecooriginal text-xs pr-2">R$ 88,99</p>
+                                        <p class="text-shadow-md ml-3 text-letrapreco font-medium mr-2">R$ 44,49</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    
+
+                    
+
+
+                </div>
+            </div>
         </main>
-    </header>
+    
 </body>
 </html>
