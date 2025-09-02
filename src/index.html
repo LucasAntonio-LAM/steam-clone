@@ -11,7 +11,7 @@
 
     <!-- HEADER -->
     <header>
-        <div class="grid grid-cols-3 flex-wrap bg-header px-2 py-1 h-16 items-center shadow-xl/30 w-full fixed z-10">
+        <div class="grid grid-cols-3 flex-wrap bg-header px-2 py-1 h-16 items-center shadow-md/16 w-full fixed z-10">
             <div class="grid-cols-1">
             <img src="img/header_menu_hamburger.png" alt="hamburguer menu" class="h-8 cursor-pointer">
             </div>
@@ -21,17 +21,17 @@
         </div>
 
     <!-- NAV MENU -->
-        <nav class="flex flex-col bg-gradient-to-r from-degrade1 from-11% via-degrade2 via-25% to-degrade3 to-80% box-shadow pb-1 pt-16">
+        <nav class="flex flex-col bg-gradient-to-r from-degrade1 from-20% via-degrade2 via-28% to-degrade3 to-80% pb-1 pt-16">
             <ul class="text-white font-medium text-sm">
-                <div class="flex p-2 pl-3 items-center hover-items-nav hover:shadow-sm cursor-pointer">
-                    <img src="img/img-conta-steam.png" alt="Conta Steam" class="h-4 shadow-md/50 mr-2">
-                    <li class="text-shadow-sm/15">Sua Loja</li>
+                <div class="flex items-center hover-items-nav hover:shadow-sm cursor-pointer">
+                    <img src="img/img-conta-steam.png" alt="Conta Steam" class="h-4 shadow-md/50 mr-2 ml-2">
+                    <li class="text-shadow-sm/15 text-[13px] leading-[34px]">Sua Loja</li>
                 </div>
-                <li class="p-2 pl-3 hover-items-nav cursor-pointer text-shadow-sm/15 hover:shadow-sm">Novidades e tendências</li>
-                <li class="p-2 pl-3  hover-items-nav cursor-pointer text-shadow-sm/15 hover:shadow-sm">Categorias</li>
-                <li class="p-2 pl-3 hover-items-nav cursor-pointer text-shadow-sm/15 hover:shadow-sm">Loja de Pontos</li>
-                <li class="p-2 pl-3 hover-items-nav cursor-pointer text-shadow-sm/15 hover:shadow-sm">Notícias</li>
-                <li class="p-2 pl-3 hover-items-nav cursor-pointer text-shadow-sm/15 hover:shadow-sm">Laboratório</li>
+                <li class="pl-[15px] hover-items-nav cursor-pointer text-shadow-sm/15 hover:shadow-sm text-[13px] leading-[34px]">Novidades e tendências</li>
+                <li class="pl-[15px] hover-items-nav cursor-pointer text-shadow-sm/15 hover:shadow-sm text-[13px] leading-[34px]">Categorias</li>
+                <li class="pl-[15px] hover-items-nav cursor-pointer text-shadow-sm/15 hover:shadow-sm text-[13px] leading-[34px]">Loja de Pontos</li>
+                <li class="pl-[15px] hover-items-nav cursor-pointer text-shadow-sm/15 hover:shadow-sm text-[13px] leading-[34px]">Notícias</li>
+                <li class="pl-[15px] hover-items-nav cursor-pointer text-shadow-sm/15 hover:shadow-sm text-[13px] leading-[34px]">Laboratório</li>
             </ul>
 
             <div class="flex mt-2 mr-2 ml-2 relative z-0">
@@ -43,158 +43,157 @@
         <!-- MAIN CONTENT -->
         <main>
             <!-- DESTAQUES E RECOMENDADOS -->
-            <div class="bg-linear-to-t from-destaque2 from-15% to-destaque1 to-80% pt-8 pb-8 flex flex-nowrap pr-3 pl-2">
-                
+             
+            <div class="bg-linear-to-t from-destaque2 from-15% to-destaque1 to-80% pt-8 pb-8 flex flex-col flex-nowrap pr-3 pl-2">
+                <h3 class="text-white font-light pl-1 text-[14px]">DESTAQUES E RECOMENDADOS</h3>
                 <div class="flex overflow-auto pb-4 scrollbar-thin scrollbar-thumb-scrollbar scrollbar-track-destaque2">
-
                     <div class="flex flex-col flex-nowrap">
-                        <h3 class="text-white font-semibold pl-1 text-sm">DESTAQUES E RECOMENDADOS</h3>
-                        <div class="flex flex-col w-130 m-1 shadow-xl/35 pb-2">
+                        <div class="flex flex-col w-130 m-1 shadow-md/30 pb-2">
                             <img src="img/ghostrecon-breakpoint.png" alt="Jogo em destaque" class="w-150 h-80">
-                            <h1 class="text-white font-bold ml-1 mt-1">Tom Clancy's Ghost Recon® Breakpoint</h1>
+                            <h1 class="text-white font-bold ml-1 mt-1 text-[18px]">Tom Clancy's Ghost Recon® Breakpoint</h1>
                             <div class="flex ml-1 mt-2">
                                 <div class="flex box-shadow items-center bg-preco ">
-                                    <p class="bg-desconto text-letradesconto p-1 text-sm font-bold">-90%</p>
-                                    <p class="line-through pl-1 text-letraprecooriginal text-sm">R$ 179,00 </p>
-                                    <p class="pr-1 pl-1 text-sm text-letrapreco font-normal">R$ 17,90</p>
+                                    <p class="bg-desconto text-letradesconto text-[14px] leading-6 p-[2px] font-bold">-90%</p>
+                                    <p class="line-through pl-1 text-letraprecooriginal text-[11px] leading-3">R$ 179,00 </p>
+                                    <p class="pr-1 text-sm text-letrapreco text-[11px] leading-3 font-semibold pl-[4px]">R$ 17,90</p>
                                 </div>
                             </div>
                         </div>
                     </div>
 
-                    <div class="flex flex-col flex-nowrap pt-5">
-                        <div class="flex flex-col w-130 m-1 shadow-xl/35 pb-2">
+                    <div class="flex flex-col flex-nowrap">
+                        <div class="flex flex-col w-130 m-1 shadow-md/30 pb-3">
                             <img src="img/callofdutyblackops6.png" alt="Jogo em destaque" class="w-150 h-80">
-                            <h1 class="text-white font-bold ml-1 mt-1">Call of Duty® Black Ops 6</h1>
+                            <h1 class="text-white font-bold ml-1 mt-1 mb-1 text-[18px]">Call of Duty® Black Ops 6</h1>
                             <div class="flex ml-1 mt-2">
                                 <div class="flex items-center pb-2">
-                                    <p class="pr-1 pl-1 text-sm text-white font-semibold">R$ 339,00</p>
+                                    <p class="pr-1 pl-2 text-white text-[11px] leading-3 font-semibold">R$ 339,00</p>
                                 </div>
                             </div>
                         </div>
                     </div>
 
-                    <div class="flex flex-col flex-nowrap pt-5">
-                        <div class="flex flex-col w-130 m-1 shadow-xl/35 pb-2">
+                    <div class="flex flex-col flex-nowrap">
+                        <div class="flex flex-col w-130 m-1 shadow-md/30 pb-2">
                             <img src="img/hogwartslegacy.png" alt="Jogo em destaque" class="w-150 h-80">
-                            <h1 class="text-white font-bold ml-1 mt-1">Hogwarts Legacy</h1>
+                            <h1 class="text-white font-bold ml-1 mt-1 text-[18px]">Hogwarts Legacy</h1>
                             <div class="flex ml-1 mt-2">
                                 <div class="flex box-shadow items-center bg-preco">
-                                    <p class="bg-desconto text-letradesconto p-1 text-sm font-bold">-80%</p>
-                                    <p class="line-through pl-1 text-letraprecooriginal text-sm">R$ 249,99</p>
-                                    <p class="pr-1 pl-1 text-sm text-letrapreco font-normal">R$ 49,99</p>
+                                    <p class="bg-desconto text-letradesconto text-[14px] leading-6 p-[2px] font-bold">-80%</p>
+                                    <p class="line-through pl-1 text-letraprecooriginal text-[11px] leading-3">R$ 249,99</p>
+                                    <p class="pr-1 text-sm text-letrapreco text-[11px] leading-3 font-semibold pl-[4px]">R$ 49,99</p>
                                 </div>
                             </div>
                         </div>
                     </div>
 
-                    <div class="flex flex-col flex-nowrap pt-5">
-                        <div class="flex flex-col w-130 m-1 shadow-xl/35 pb-2">
+                    <div class="flex flex-col flex-nowrap">
+                        <div class="flex flex-col w-130 m-1 shadow-md/30 pb-4">
                             <img src="img/capsule_616x353.jpg" alt="Jogo em destaque" class="w-150 h-80">
-                            <h1 class="text-white font-bold ml-1 mt-1">GTFO</h1>
+                            <h1 class="text-white font-bold ml-1 mt-1 text-[18px]">GTFO</h1>
                             <div class="flex ml-1 mt-2">
                                 <div class="flex items-center pb-2">
-                                    <p class="pr-1 pl-1 text-sm text-white font-semibold">R$ 74,99</p>
+                                    <p class="pr-1 pl-2 text-white text-[11px] leading-3 font-semibold">R$ 74,99</p>
                                 </div>
                             </div>
                         </div>
                     </div>
 
-                    <div class="flex flex-col flex-nowrap pt-5">
-                        <div class="flex flex-col w-130 m-1 shadow-xl/35 pb-2">
+                    <div class="flex flex-col flex-nowrap">
+                        <div class="flex flex-col w-130 m-1 shadow-md/30 pb-4">
                             <img src="img/peak.png" alt="Jogo em destaque" class="w-150 h-80">
-                            <h1 class="text-white font-bold ml-1 mt-1">PEAK</h1>
+                            <h1 class="text-white font-bold ml-1 mt-1 text-[18px]">PEAK</h1>
                             <div class="flex ml-1 mt-2">
                                 <div class="flex items-center pb-2">
-                                    <p class="pr-1 pl-1 text-sm text-white font-semibold">R$ 23,99</p>
+                                    <p class="pr-1 pl-2 text-white text-[11px] leading-3 font-semibold">R$ 23,99</p>
                                 </div>
                             </div>
                         </div>
                     </div>
 
-                    <div class="flex flex-col flex-nowrap pt-5">
-                        <div class="flex flex-col w-130 m-1 shadow-xl/35 pb-2">
+                    <div class="flex flex-col flex-nowrap">
+                        <div class="flex flex-col w-130 m-1 shadow-md/30 pb-4">
                             <img src="img/teamfortress2.jpg" alt="Jogo em destaque" class="w-150 h-80">
-                            <h1 class="text-white font-bold ml-1 mt-1">Team Fortress 2</h1>
+                            <h1 class="text-white font-bold ml-1 mt-1 text-[18px]">Team Fortress 2</h1>
                             <div class="flex ml-1 mt-2">
                                 <div class="flex items-center pb-2">
-                                    <p class="pr-1 pl-1 text-sm text-white font-light">Gratuito para jogar</p>
+                                    <p class="pr-1 pl-2 text-white text-[11px] leading-3 font-semibold">Gratuito para jogar</p>
                                 </div>
                             </div>
                         </div>
                     </div>
 
-                    <div class="flex flex-col flex-nowrap pt-5">
-                        <div class="flex flex-col w-130 m-1 shadow-xl/35 pb-2">
+                    <div class="flex flex-col flex-nowrap">
+                        <div class="flex flex-col w-130 m-1 shadow-md/30 pb-4">
                             <img src="img/battlefield-6.jpg" alt="Jogo em destaque" class="w-150 h-80">
-                            <h1 class="text-white font-bold ml-1 mt-1">Battlefield™ 6</h1>
+                            <h1 class="text-white font-bold ml-1 mt-1 text-[18px]">Battlefield™ 6</h1>
                             <div class="flex ml-1 mt-2">
                                 <div class="flex items-center pb-2">
-                                    <p class="pr-1 pl-1 text-sm text-white font-semibold">R$ 299,00</p>
+                                    <p class="pr-1 pl-2 text-white text-[11px] leading-3 font-semibold">R$ 299,00</p>
                                 </div>
                             </div>
                         </div>
                     </div>
 
-                    <div class="flex flex-col flex-nowrap pt-5">
-                        <div class="flex flex-col w-130 m-1 shadow-xl/35 pb-2">
+                    <div class="flex flex-col flex-nowrap">
+                        <div class="flex flex-col w-130 m-1 shadow-md/30 pb-2">
                             <img src="img/the-last-of-us-part-1.jpg" alt="Jogo em destaque" class="w-150 h-80">
-                            <h1 class="text-white font-bold ml-1 mt-1">The Last of Us™ Part 1</h1>
+                            <h1 class="text-white font-bold ml-1 mt-1 text-[18px]">The Last of Us™ Part 1</h1>
                             <div class="flex ml-1 mt-2">
                                 <div class="flex box-shadow items-center bg-preco">
-                                    <p class="bg-desconto text-letradesconto p-1 text-sm font-bold">-50%</p>
-                                    <p class="line-through pl-1 text-letraprecooriginal text-sm">R$ 249,90</p>
-                                    <p class="pr-1 pl-1 text-sm text-letrapreco font-normal">R$ 124,95</p>
+                                    <p class="bg-desconto text-letradesconto text-[14px] leading-6 p-[2px] font-bold">-50%</p>
+                                    <p class="line-through pl-1 text-letraprecooriginal text-[11px] leading-3">R$ 249,90</p>
+                                    <p class="pr-1 text-sm text-letrapreco text-[11px] leading-3 font-semibold pl-[4px]">R$ 124,95</p>
                                 </div>
                             </div>
                         </div>
                     </div>
 
-                    <div class="flex flex-col flex-nowrap pt-5">
-                        <div class="flex flex-col w-130 m-1 shadow-xl/35 pb-2">
+                    <div class="flex flex-col flex-nowrap">
+                        <div class="flex flex-col w-130 m-1 shadow-md/30 pb-2">
                             <img src="img/wildgate.jpg" alt="Jogo em destaque" class="w-150 h-80">
-                            <h1 class="text-white font-bold ml-1 mt-1">Wildgate</h1>
+                            <h1 class="text-white font-bold ml-1 mt-1 text-[18px]">Wildgate</h1>
                             <div class="flex ml-1 mt-2">
                                 <div class="flex box-shadow items-center bg-preco">
-                                    <p class="bg-desconto text-letradesconto p-1 text-sm font-bold">-34%</p>
-                                    <p class="line-through pl-1 text-letraprecooriginal text-sm">R$ 88,00</p>
-                                    <p class="pr-1 pl-1 text-sm text-letrapreco font-normal">R$ 58,08</p>
+                                    <p class="bg-desconto text-letradesconto text-[14px] leading-6 p-[2px] font-bold">-34%</p>
+                                    <p class="line-through pl-1 text-letraprecooriginal text-[11px] leading-3">R$ 88,00</p>
+                                    <p class="pr-1 text-sm text-letrapreco text-[11px] leading-3 font-semibold pl-[4px]">R$ 58,08</p>
                                 </div>
                             </div>
                         </div>
                     </div>
 
-                    <div class="flex flex-col flex-nowrap pt-5">
-                        <div class="flex flex-col w-130 m-1 shadow-xl/35 pb-2">
+                    <div class="flex flex-col flex-nowrap">
+                        <div class="flex flex-col w-130 m-1 shadow-md/30 pb-4">
                             <img src="img/delta-force.jpg" alt="Jogo em destaque" class="w-150 h-80">
-                            <h1 class="text-white font-bold ml-1 mt-1">Delta Force</h1>
+                            <h1 class="text-white font-bold ml-1 mt-1 text-[18px]">Delta Force</h1>
                             <div class="flex ml-1 mt-2">
                                 <div class="flex items-center pb-2">
-                                    <p class="pr-1 pl-1 text-sm text-white font-light">Gratuito para jogar</p>
+                                    <p class="pr-1 pl-2 text-white text-[11px] leading-3 font-semibold">Gratuito para jogar</p>
                                 </div>
                             </div>
                         </div>
                     </div>
 
-                    <div class="flex flex-col flex-nowrap pt-5">
-                        <div class="flex flex-col w-130 m-1 shadow-xl/35 pb-2">
+                    <div class="flex flex-col flex-nowrap">
+                        <div class="flex flex-col w-130 m-1 shadow-md/30 pb-4">
                             <img src="img/warframe.jpg" alt="Jogo em destaque" class="w-150 h-80">
-                            <h1 class="text-white font-bold ml-1 mt-1">Warframe</h1>
+                            <h1 class="text-white font-bold ml-1 mt-1 text-[18px]">Warframe</h1>
                             <div class="flex ml-1 mt-2">
                                 <div class="flex items-center pb-2">
-                                    <p class="pr-1 pl-1 text-sm text-white font-light">Gratuito para jogar</p>
+                                    <p class="pr-1 pl-2 text-white text-[11px] leading-3 font-semibold">Gratuito para jogar</p>
                                 </div>
                             </div>
                         </div>
                     </div>
 
-                    <div class="flex flex-col flex-nowrap pt-5">
-                        <div class="flex flex-col w-130 m-1 shadow-xl/35 pb-2">
+                    <div class="flex flex-col flex-nowrap">
+                        <div class="flex flex-col w-130 m-1 shadow-md/30 pb-4">
                             <img src="img/star-wars-battlefront-2.jpg" alt="Jogo em destaque" class="w-150 h-80">
-                            <h1 class="text-white font-bold ml-1 mt-1">Star Wars™ Battlefront™ II</h1>
+                            <h1 class="text-white font-bold ml-1 mt-1 text-[18px]">Star Wars™ Battlefront™ II</h1>
                             <div class="flex ml-1 mt-2">
                                 <div class="flex items-center pb-2">
-                                    <p class="pr-1 pl-1 text-sm text-white font-semibold">R$ 159,00</p>
+                                    <p class="pr-1 pl-2 text-white text-[11px] leading-3 font-semibold">R$ 159,00</p>
                                 </div>
                             </div>
                         </div>
@@ -206,30 +205,30 @@
 
             <!-- DESCONTOS E EVENTOS -->
 
-            <div class="bg-maincolor pl-2 pr-3 pt-1">
+        <div class="bg-maincolor pl-2 pr-3 pt-1">
                 
                 <div>
                     <img src="img/mixfallgameshowcase.jpg" alt="Showcase" class="box-shadow-showcase mt-1 mb-7">
                 </div>
 
                 <div class="flex flex-nowrap items-center justify-between">
-                    <h3 class="text-white font-semibold pb-1 text-sm">DESCONTOS E EVENTOS</h3>
-                    <h2 class="text-gray-500 font-semibold text-sm cursor-pointer">Mais<i class="fa-solid fa-angle-right"></i></h2>
+                    <h3 class="text-white font-light pb-1 text-[14px]">DESCONTOS E EVENTOS</h3>
+                    <h2 class="text-gray-500 font-semibold text-[12px] tracking-normal cursor-pointer">Mais<i class="fa-solid fa-angle-right"></i></h2>
                 </div>
                 
-                <div class="flex flex-nowrap overflow-auto pb-4 scrollbar-thin scrollbar-thumb-scrollbar scrollbar-track-destaque2">
+            <div class="flex flex-nowrap overflow-auto pb-4 scrollbar-thin scrollbar-thumb-scrollbar scrollbar-track-destaque2">
 
                     <div class="flex flex-nowrap flex-col mr-3">
                         <img src="img/spotlight_image_nomanssky.png" alt="Jogo em destaque" class="relative z-30">
-                        <div class="flex flex-col spotlight-fundo bg-no-repeat relative pb-7 top-0 h-full w-78">
-                            <h3 class="text-white font-semibold mt-2 ml-4 relative top-0 z-15">OFERTA DO FIM DE SEMANA</h3>
-                            <h3 class="text-gray-300 mt-2 ml-4 font-extralight text-sm relative top-0 z-15">Oferta válida até 8 de set. ás 14:00.</h3>
-                            <div class="flex mt-2 ml-4">
+                        <div class="flex flex-col spotlight-fundo bg-no-repeat relative pb-7 top-0 h-full w-77">
+                            <h3 class="text-white text-[14px] font-normal uppercase mt-2 ml-4 relative top-0 z-15">OFERTA DO FIM DE SEMANA</h3>
+                            <h3 class="text-gray-300 mt-2 ml-4 text-[12px] font-normal relative top-0 z-15">Oferta válida até 8 de set. ás 14:00.</h3>
+                            <div class="flex mt-3 ml-4">
                                 <div class="flex items-center bg-preco relative top-0 z-15">
-                                    <p class="bg-desconto text-letradesconto p-1 text-3xl font-bold">-60%</p>
-                                    <div class="flex flex-col justify-end">
-                                        <p class="line-through ml-7 text-letraprecooriginal text-xs pr-2">R$ 162,00</p>
-                                        <p class="text-shadow-md ml-4 text-letrapreco font-medium mr-2">R$ 64,80</p>
+                                    <p class="bg-desconto text-letradesconto p-1 leading-8 text-[26px] font-medium pl-[5px] pr-[5px]">-60%</p>
+                                    <div class="flex flex-col items-end justify-center">
+                                        <p class="line-through text-letraprecooriginal text-[11px] leading-3 pr-[8px]">R$ 162,00</p>
+                                        <p class="text-shadow-md text-letrapreco leading-4 text-[15px] pl-[8px] pr-[8px]">R$ 64,80</p>
                                     </div>
                                 </div>
                             </div>
@@ -237,16 +236,16 @@
                     </div>
 
                     <div class="flex flex-nowrap flex-col mr-3">
-                        <img src="img/spotlight_image_nightingale.png" alt="Jogo em destaque" class="relative z-30 w-78">
-                        <div class="flex flex-col spotlight-fundo bg-no-repeat relative top-0 h-full w-78">
-                            <h3 class="text-white font-semibold mt-2 ml-4 relative top-0 z-15">FIM DE SEMANA GRATUITO</h3>
-                            <h3 class="text-gray-300 mt-2 ml-4 font-extralight text-sm relative top-0 z-15">Oferta válida até 11 de set. ás 14:00.</h3>
-                            <div class="flex mt-2 ml-4">
+                        <img src="img/spotlight_image_nightingale.png" alt="Jogo em destaque" class="relative z-30">
+                        <div class="flex flex-col spotlight-fundo bg-no-repeat relative top-0 h-full w-77">
+                            <h3 class="text-white text-[14px] font-normal uppercase mt-2 ml-4 relative top-0 z-15">OFERTA DO FIM DE SEMANA</h3>
+                            <h3 class="text-gray-300 mt-2 ml-4 text-[12px] font-normal relative top-0 z-15">Oferta válida até 8 de set. ás 14:00.</h3>
+                            <div class="flex mt-3 ml-4">
                                 <div class="flex items-center bg-preco relative top-0 z-15">
-                                    <p class="bg-desconto text-letradesconto p-1 text-3xl font-bold">-50%</p>
-                                    <div class="flex flex-col justify-end">
-                                        <p class="line-through ml-7 text-letraprecooriginal text-xs pr-2">R$ 88,99</p>
-                                        <p class="text-shadow-md ml-3 text-letrapreco font-medium mr-2">R$ 44,49</p>
+                                    <p class="bg-desconto text-letradesconto p-1 leading-8 text-[26px] font-medium pl-[5px] pr-[5px]">-50%</p>
+                                    <div class="flex flex-col items-end justify-center">
+                                        <p class="line-through ml-7 text-letraprecooriginal text-[11px] leading-3 pr-[8px]">R$ 88,99</p>
+                                        <p class="text-shadow-md ml-3 text-letrapreco leading-4 text-[15px] pl-[8px] pr-[8px]">R$ 44,49</p>
                                     </div>
                                 </div>
                             </div>
@@ -254,12 +253,299 @@
                     </div>
 
                     
+                    <div class="flex flex-col">
+
+                        <div class="w-78 flex justify-between flex-col">
+                            <img src="img/abovesnakes.jpg" alt="Oferta do dia" class="w-78 h-36">
+                            <div class="flex w-78 bg-ofertadodia justify-between">
+                                <h1 class="ml-2 mt-1 text-[14px]">Oferta do dia!</h1>
+                                <div class="flex items-center bg-preco mt-1 mb-1 mr-1">
+                                    <p class="bg-desconto text-letradesconto p-1 text-[26px] leading-9 font-bold">-75%</p>
+                                    <div class="flex flex-col items-end justify-center">
+                                        <p class="line-through text-letraprecooriginal text-[11px] leading-3 pr-[8px]">R$ 73,99</p>
+                                        <p class="text-shadow-md text-letrapreco text-[15px] leading-4 pr-[8px] pl-[8px]">R$ 18,49</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="w-78 flex justify-between flex-col mt-3">
+                            <img src="img/supraland.jpg" alt="Oferta do dia" class="w-78 h-36">
+                            <div class="flex w-78 bg-ofertadodia justify-between">
+                                <h1 class="ml-2 mt-1 text-[14px]">Oferta do dia!</h1>
+                                <div class="flex items-center bg-preco mt-1 mb-1 mr-1">
+                                    <p class="bg-desconto text-letradesconto p-1 text-[26px] leading-9 font-bold">-68%</p>
+                                    <div class="flex flex-col items-end justify-center">
+                                        <p class="line-through text-letraprecooriginal text-[11px] leading-3 pr-[8px]">R$ 29,99</p>
+                                        <p class="text-shadow-md text-letrapreco text-[15px] leading-4 pr-[8px] pl-[8px]">R$ 9,59</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="flex flex-nowrap flex-col ml-3">
+                        <img src="img/kingdomcome.jpg" alt="Jogo em destaque" class="relative z-30">
+                        <div class="flex flex-col spotlight-fundo bg-no-repeat relative top-0 h-full w-77">
+                            <h3 class="text-white text-[14px] font-normal uppercase mt-2 ml-4 relative top-0 z-15">OFERTA DO MEIO DA SEMANA</h3>
+                            <h3 class="text-gray-300 mt-2 ml-4 text-[12px] font-normal relative top-0 z-15">Oferta válida até 15 de set. ás 14:00.</h3>
+                            <div class="flex mt-3 ml-4">
+                                <div class="flex items-center bg-preco relative top-0 z-15">
+                                    <p class="bg-desconto text-letradesconto p-1 leading-8 text-[26px] font-medium pl-[5px] pr-[5px]">-80%</p>
+                                    <div class="flex flex-col items-end justify-center">
+                                        <p class="line-through ml-7 text-letraprecooriginal text-[11px] leading-3 pr-[8px]">R$ 149,00</p>
+                                        <p class="text-shadow-md ml-3 text-letrapreco leading-4 text-[15px] pl-[8px] pr-[8px]">R$ 29,80</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="flex flex-nowrap flex-col mr-3 ml-3">
+                        <img src="img/starttrucker.png" alt="Jogo em destaque" class="relative z-30">
+                        <div class="flex flex-col spotlight-fundo bg-no-repeat relative top-0 h-full w-77">
+                            <h3 class="text-white text-[14px] font-normal uppercase mt-2 ml-4 relative top-0 z-15">OFERTA DO MEIO DA SEMANA</h3>
+                            <h3 class="text-gray-300 mt-2 ml-4 text-[12px] font-normal relative top-0 z-15">Oferta válida até 8 de set. ás 14:00.</h3>
+                            <div class="flex mt-3 ml-4">
+                                <div class="flex items-center bg-preco relative top-0 z-15">
+                                    <p class="bg-desconto text-letradesconto p-1 leading-8 text-[26px] font-medium pl-[5px] pr-[5px]">-50%</p>
+                                    <div class="flex flex-col items-end justify-center">
+                                        <p class="line-through ml-7 text-letraprecooriginal text-[11px] leading-3 pr-[8px]">R$ 73,99</p>
+                                        <p class="text-shadow-md ml-3 text-letrapreco leading-4 text-[15px] pl-[8px] pr-[8px]">R$ 36,99</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="flex flex-col mr-3">
+
+                        <div class="w-78 flex justify-between flex-col">
+                            <img src="img/drug-dealer.jpg" alt="Oferta do dia" class="w-78 h-36">
+                            <div class="flex w-78 bg-ofertadodia justify-between">
+                                <h1 class="ml-2 mt-1 text-[14px]">Oferta do dia!</h1>
+                                <div class="flex items-center bg-preco mt-1 mb-1 mr-1">
+                                    <p class="bg-desconto text-letradesconto p-1 text-[26px] leading-9 font-bold">-90%</p>
+                                    <div class="flex flex-col items-end justify-center">
+                                        <p class="line-through text-letraprecooriginal text-[11px] leading-3 pr-[8px]">R$ 37,99</p>
+                                        <p class="text-shadow-md text-letrapreco text-[15px] leading-4 pr-[8px] pl-[8px]">R$ 3,79</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="w-78 flex justify-between flex-col mt-3">
+                            <img src="img/astroneer.jpg" alt="Oferta do dia" class="w-78 h-36">
+                            <div class="flex w-78 bg-ofertadodia justify-between">
+                                <h1 class="ml-2 mt-1 text-[14px]">Oferta do dia!</h1>
+                                <div class="flex items-center bg-preco mt-1 mb-1 mr-1">
+                                    <p class="bg-desconto text-letradesconto p-1 text-[26px] leading-9 font-bold">-67%</p>
+                                    <div class="flex flex-col items-end justify-center">
+                                        <p class="line-through text-letraprecooriginal text-[11px] leading-3 pr-[8px]">R$ 86,99</p>
+                                        <p class="text-shadow-md text-letrapreco text-[15px] leading-4 pr-[8px] pl-[8px]">R$ 29,36</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="flex flex-col mr-3">
+
+                        <div class="w-78 flex justify-between flex-col">
+                            <img src="img/avatars.jpg" alt="Oferta do dia" class="w-78 h-36">
+                            <div class="flex w-78 bg-ofertadodia justify-between">
+                                <h1 class="ml-2 mt-1 text-[14px]">Oferta do dia!</h1>
+                                <div class="flex items-center bg-preco mt-1 mb-1 mr-1">
+                                    <p class="bg-desconto text-letradesconto p-1 text-[26px] leading-9 font-bold">-75%</p>
+                                    <div class="flex flex-col items-end justify-center">
+                                        <p class="line-through text-letraprecooriginal text-[11px] leading-3 pr-[8px]">R$ 299,99</p>
+                                        <p class="text-shadow-md text-letrapreco text-[15px] leading-4 pr-[8px] pl-[8px]">R$ 74,99</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="w-78 flex justify-between flex-col mt-3">
+                            <img src="img/gtav.jpg" alt="Oferta do dia" class="w-78 h-36">
+                            <div class="flex w-78 bg-ofertadodia justify-between">
+                                <h1 class="ml-2 mt-1 text-[14px]">Oferta do dia!</h1>
+                                <div class="flex items-center bg-preco mt-1 mb-1 mr-1">
+                                    <p class="bg-desconto text-letradesconto p-1 text-[26px] leading-9 font-bold">-56%</p>
+                                    <div class="flex flex-col items-end justify-center">
+                                        <p class="line-through text-letraprecooriginal text-[11px] leading-3 pr-[8px]">R$ 224,90</p>
+                                        <p class="text-shadow-md text-letrapreco text-[15px] leading-4 pr-[8px] pl-[8px]">R$ 98,95</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="flex flex-col mr-3">
+
+                        <div class="w-78 flex justify-between flex-col">
+                            <img src="img/scum.jpg" alt="Oferta do dia" class="w-78 h-36">
+                            <div class="flex w-78 bg-ofertadodia justify-between">
+                                <h1 class="ml-2 mt-1 text-[14px]">Oferta do dia!</h1>
+                                <div class="flex items-center bg-preco mt-1 mb-1 mr-1">
+                                    <p class="bg-desconto text-letradesconto p-1 text-[26px] leading-9 font-bold">-50%</p>
+                                    <div class="flex flex-col items-end justify-center">
+                                        <p class="line-through text-letraprecooriginal text-[11px] leading-3 pr-[8px]">R$ 159,99</p>
+                                        <p class="text-shadow-md text-letrapreco text-[15px] leading-4 pr-[8px] pl-[8px]">R$ 79,99</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="w-78 flex justify-between flex-col mt-3">
+                            <img src="img/odyssey.jpg" alt="Oferta do dia" class="w-78 h-36">
+                            <div class="flex w-78 bg-ofertadodia justify-between">
+                                <h1 class="ml-2 mt-1 text-[14px]">Oferta do dia!</h1>
+                                <div class="flex items-center bg-preco mt-1 mb-1 mr-1">
+                                    <p class="bg-desconto text-letradesconto p-1 text-[26px] leading-9 font-bold">-85%</p>
+                                    <div class="flex flex-col items-end justify-center">
+                                        <p class="line-through text-letraprecooriginal text-[11px] leading-3 pr-[8px]">R$ 179,99</p>
+                                        <p class="text-shadow-md text-letrapreco text-[15px] leading-4 pr-[8px] pl-[8px]">R$ 26,99</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="flex flex-col mr-3">
+
+                        <div class="w-78 flex justify-between flex-col">
+                            <img src="img/medieval.jpg" alt="Oferta do dia" class="w-78 h-36">
+                            <div class="flex w-78 bg-ofertadodia justify-between">
+                                <h1 class="ml-2 mt-1 text-[14px]">Oferta do dia!</h1>
+                                <div class="flex items-center bg-preco mt-1 mb-1 mr-1">
+                                    <p class="bg-desconto text-letradesconto p-1 text-[26px] leading-9 font-bold">-40%</p>
+                                    <div class="flex flex-col items-end justify-center">
+                                        <p class="line-through text-letraprecooriginal text-[11px] leading-3 pr-[8px]">R$ 129,00</p>
+                                        <p class="text-shadow-md text-letrapreco text-[15px] leading-4 pr-[8px] pl-[8px]">R$ 77,40</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="w-78 flex justify-between flex-col mt-3">
+                            <img src="img/assassinscreedvalhalla.jpg" alt="Oferta do dia" class="w-78 h-36">
+                            <div class="flex w-78 bg-ofertadodia justify-between">
+                                <h1 class="ml-2 mt-1 text-[14px]">Oferta do dia!</h1>
+                                <div class="flex items-center bg-preco mt-1 mb-1 mr-1">
+                                    <p class="bg-desconto text-letradesconto p-1 text-[26px] leading-9 font-bold">-80%</p>
+                                    <div class="flex flex-col items-end justify-center">
+                                        <p class="line-through text-letraprecooriginal text-[11px] leading-3 pr-[8px]">R$ 199,99</p>
+                                        <p class="text-shadow-md text-letrapreco text-[15px] leading-4 pr-[8px] pl-[8px]">R$ 39,99</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="flex flex-col mr-3">
+
+                        <div class="w-78 flex justify-between flex-col">
+                            <img src="img/syndicate.jpg" alt="Oferta do dia" class="w-78 h-36">
+                            <div class="flex w-78 bg-ofertadodia justify-between">
+                                <h1 class="ml-2 mt-1 text-[14px]">Oferta do dia!</h1>
+                                <div class="flex items-center bg-preco mt-1 mb-1 mr-1">
+                                    <p class="bg-desconto text-letradesconto p-1 text-[26px] leading-9 font-bold">-85%</p>
+                                    <div class="flex flex-col items-end justify-center">
+                                        <p class="line-through text-letraprecooriginal text-[11px] leading-3 pr-[8px]">R$ 89,99</p>
+                                        <p class="text-shadow-md text-letrapreco text-[15px] leading-4 pr-[8px] pl-[8px]">R$ 13,49</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="w-78 flex justify-between flex-col mt-3">
+                            <img src="img/blackflag.jpg" alt="Oferta do dia" class="w-78 h-36">
+                            <div class="flex w-78 bg-ofertadodia justify-between">
+                                <h1 class="ml-2 mt-1 text-[14px]">Oferta do dia!</h1>
+                                <div class="flex items-center bg-preco mt-1 mb-1 mr-1">
+                                    <p class="bg-desconto text-letradesconto p-1 text-[26px] leading-9 font-bold">-70%</p>
+                                    <div class="flex flex-col items-end justify-center">
+                                        <p class="line-through text-letraprecooriginal text-[11px] leading-3 pr-[8px]">R$ 119,99</p>
+                                        <p class="text-shadow-md text-letrapreco text-[15px] leading-4 pr-[8px] pl-[8px]">R$ 35,99</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="flex flex-col mr-3">
+
+                        <div class="w-78 flex justify-between flex-col">
+                            <img src="img/deliverance.jpg" alt="Oferta do dia" class="w-78 h-36">
+                            <div class="flex w-78 bg-ofertadodia justify-between">
+                                <h1 class="ml-2 mt-1 text-[14px]">Oferta do dia!</h1>
+                                <div class="flex items-center bg-preco mt-1 mb-1 mr-1">
+                                    <p class="bg-desconto text-letradesconto p-1 text-[26px] leading-9 font-bold">-30%</p>
+                                    <div class="flex flex-col items-end justify-center">
+                                        <p class="line-through text-letraprecooriginal text-[11px] leading-3 pr-[8px]">R$ 299,99</p>
+                                        <p class="text-shadow-md text-letrapreco text-[15px] leading-4 pr-[8px] pl-[8px]">R$ 209,30</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="w-78 flex justify-between flex-col mt-3">
+                            <img src="img/7daystodie.jpg" alt="Oferta do dia" class="w-78 h-36">
+                            <div class="flex w-78 bg-ofertadodia justify-between">
+                                <h1 class="ml-2 mt-1 text-[14px]">Oferta do dia!</h1>
+                                <div class="flex items-center bg-preco mt-1 mb-1 mr-1">
+                                    <p class="bg-desconto text-letradesconto p-1 text-[26px] leading-9 font-bold">-40%</p>
+                                    <div class="flex flex-col items-end justify-center">
+                                        <p class="line-through text-letraprecooriginal text-[11px] leading-3 pr-[8px]">R$ 121,99</p>
+                                        <p class="text-shadow-md text-letrapreco text-[15px] leading-4 pr-[8px] pl-[8px]">R$ 73,19</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="flex flex-col">
+
+                        <div class="w-78 flex justify-between flex-col">
+                            <img src="img/royaledition.jpg" alt="Oferta do dia" class="w-78 h-36">
+                            <div class="flex w-78 bg-ofertadodia justify-between">
+                                <h1 class="ml-2 mt-1 text-[14px]">Oferta do dia!</h1>
+                                <div class="flex items-center bg-preco mt-1 mb-1 mr-1">
+                                    <p class="bg-desconto text-letradesconto p-1 text-[26px] leading-9 font-bold">-80%</p>
+                                    <div class="flex flex-col items-end justify-center">
+                                        <p class="line-through text-letraprecooriginal text-[11px] leading-3 pr-[8px]">R$ 199,00</p>
+                                        <p class="text-shadow-md text-letrapreco text-[15px] leading-4 pr-[8px] pl-[8px]">R$ 39,80</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="w-78 flex justify-between flex-col mt-3">
+                            <img src="img/rogue.jpg" alt="Oferta do dia" class="w-78 h-36">
+                            <div class="flex w-78 bg-ofertadodia justify-between">
+                                <h1 class="ml-2 mt-1 text-[14px]">Oferta do dia!</h1>
+                                <div class="flex items-center bg-preco mt-1 mb-1 mr-1">
+                                    <p class="bg-desconto text-letradesconto p-1 text-[26px] leading-9 font-bold">-85%</p>
+                                    <div class="flex flex-col items-end justify-center">
+                                        <p class="line-through text-letraprecooriginal text-[11px] leading-3 pr-[8px]">R$ 59,99</p>
+                                        <p class="text-shadow-md text-letrapreco text-[15px] leading-4 pr-[8px] pl-[8px]">R$ 8,99</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
 
                     
-
-
-                </div>
             </div>
+        </div>
         </main>
     
 </body>
