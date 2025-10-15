@@ -51,6 +51,10 @@
     --spacing-S1200: 1200px;
 }
 
+.nav-li {
+    @apply pl-[15px] cursor-pointer text-shadow-sm/15 hover:shadow-sm text-[13px] leading-[34px];
+}
+
 .box-shadow {
     box-shadow: 0 0 3px rgba(0, 0, 0, 0.4);
 }
