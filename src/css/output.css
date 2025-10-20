@@ -23,7 +23,6 @@
     --font-weight-semibold: 600;
     --font-weight-bold: 700;
     --tracking-normal: 0em;
-    --tracking-widest: 0.1em;
     --radius-xl: 0.75rem;
     --ease-in-out: cubic-bezier(0.4, 0, 0.2, 1);
     --default-transition-duration: 150ms;
@@ -260,9 +259,6 @@
   }
   .mb-1 {
     margin-bottom: calc(var(--spacing) * 1);
-  }
-  .mb-6 {
-    margin-bottom: calc(var(--spacing) * 6);
   }
   .mb-7 {
     margin-bottom: calc(var(--spacing) * 7);
@@ -622,9 +618,6 @@
   .pb-\[3px\] {
     padding-bottom: 3px;
   }
-  .pb-\[4px\] {
-    padding-bottom: 4px;
-  }
   .pb-\[6px\] {
     padding-bottom: 6px;
   }
@@ -657,9 +650,6 @@
   }
   .pl-\[12px\] {
     padding-left: 12px;
-  }
-  .pl-\[15px\] {
-    padding-left: 15px;
   }
   .pl-\[16px\] {
     padding-left: 16px;
@@ -800,25 +790,13 @@
     --tw-font-weight: var(--font-weight-semibold);
     font-weight: var(--font-weight-semibold);
   }
-  .tracking-\[0\.4px\] {
-    --tw-tracking: 0.4px;
-    letter-spacing: 0.4px;
-  }
   .tracking-\[1\.1px\] {
     --tw-tracking: 1.1px;
     letter-spacing: 1.1px;
   }
-  .tracking-\[1px\] {
-    --tw-tracking: 1px;
-    letter-spacing: 1px;
-  }
   .tracking-normal {
     --tw-tracking: var(--tracking-normal);
     letter-spacing: var(--tracking-normal);
-  }
-  .tracking-widest {
-    --tw-tracking: var(--tracking-widest);
-    letter-spacing: var(--tracking-widest);
   }
   .text-based4 {
     color: var(--color-based4);
@@ -909,9 +887,6 @@
   }
   .scrollbar-thumb-scrollbar {
     --scrollbar-thumb: #434953;
-  }
-  .scrollbar-track-destaque2 {
-    --scrollbar-track: #223D58;
   }
   .scrollbar-track-maincolor {
     --scrollbar-track: #1B2838;
@@ -1021,6 +996,85 @@
       box-shadow: var(--tw-inset-shadow), var(--tw-inset-ring-shadow), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);
     }
   }
+}
+.category-title {
+  padding-bottom: 4px;
+  font-size: 14px;
+  --tw-tracking: 1px;
+  letter-spacing: 1px;
+  color: var(--color-white);
+  text-transform: uppercase;
+}
+.scrollbar-maincolor {
+  &::-webkit-scrollbar-track {
+    background-color: var(--scrollbar-track);
+    border-radius: var(--scrollbar-track-radius);
+  }
+  &::-webkit-scrollbar-thumb {
+    background-color: var(--scrollbar-thumb);
+    border-radius: var(--scrollbar-thumb-radius);
+  }
+  &::-webkit-scrollbar-corner {
+    background-color: var(--scrollbar-corner);
+    border-radius: var(--scrollbar-corner-radius);
+  }
+  scrollbar-width: thin;
+  scrollbar-color: var(--scrollbar-thumb, initial) var(--scrollbar-track, initial);
+  &::-webkit-scrollbar {
+    display: block;
+    width: 8px;
+    height: 8px;
+  }
+  display: flex;
+  flex-wrap: nowrap;
+  overflow: auto;
+  padding-bottom: calc(var(--spacing) * 4);
+  --scrollbar-thumb: #434953;
+  --scrollbar-track: #1B2838;
+}
+.scrollbar-destaque {
+  &::-webkit-scrollbar-track {
+    background-color: var(--scrollbar-track);
+    border-radius: var(--scrollbar-track-radius);
+  }
+  &::-webkit-scrollbar-thumb {
+    background-color: var(--scrollbar-thumb);
+    border-radius: var(--scrollbar-thumb-radius);
+  }
+  &::-webkit-scrollbar-corner {
+    background-color: var(--scrollbar-corner);
+    border-radius: var(--scrollbar-corner-radius);
+  }
+  scrollbar-width: thin;
+  scrollbar-color: var(--scrollbar-thumb, initial) var(--scrollbar-track, initial);
+  &::-webkit-scrollbar {
+    display: block;
+    width: 8px;
+    height: 8px;
+  }
+  display: flex;
+  overflow: auto;
+  --scrollbar-thumb: #434953;
+  --scrollbar-track: #223D58;
+}
+.div-destaques-discount {
+  margin-right: calc(var(--spacing) * 2);
+  margin-bottom: calc(var(--spacing) * 6);
+  display: flex;
+  width: calc(var(--spacing) * 120);
+  flex-direction: column;
+  padding-bottom: calc(var(--spacing) * 2);
+  --tw-shadow-alpha: 30%;
+  --tw-shadow: 0 4px 6px -1px var(--tw-shadow-color, oklab(from rgb(0 0 0 / 0.1) l a b / 30%)), 0 2px 4px -2px var(--tw-shadow-color, oklab(from rgb(0 0 0 / 0.1) l a b / 30%));
+  box-shadow: var(--tw-inset-shadow), var(--tw-inset-ring-shadow), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);
+}
+.game-title-destaque {
+  margin-top: calc(var(--spacing) * 1);
+  margin-left: calc(var(--spacing) * 1);
+  font-size: 18px;
+  --tw-font-weight: var(--font-weight-bold);
+  font-weight: var(--font-weight-bold);
+  color: var(--color-white);
 }
 .box-shadow {
   box-shadow: 0 0 3px rgba(0, 0, 0, 0.4);

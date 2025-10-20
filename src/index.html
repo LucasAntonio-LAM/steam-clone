@@ -12,9 +12,13 @@
     <!-- HEADER -->
     <header>
         <div class="grid grid-cols-3 flex-wrap bg-header px-2 py-1 h-16 items-center shadow-md/16 w-full fixed z-999">
+            
+            <!--MENU HAMBURGUER-->
             <div class="grid-cols-1">
-            <img src="img/header_menu_hamburger.png" alt="hamburguer menu" class="h-8 cursor-pointer">
+                <img src="img/header_menu_hamburger.png" alt="hamburguer menu" class="h-8 cursor-pointer">
             </div>
+
+            <!--LOGO-->
             <div class="grid-cols-2 justify-self-center">
                 <img src="img/header_logo.png" alt="Steam Logo" class="h-9 cursor-pointer flex">
             </div>
@@ -22,35 +26,51 @@
 
     <!-- NAV MENU -->
         <nav class="flex flex-col bg-gradient-to-r from-degrade1 from-20% via-degrade2 via-28% to-degrade3 to-80% pb-1 pt-16">
+
             <ul class="text-white font-medium text-sm">
+
+                <!--SUA LOJA-->
                 <div class="flex items-center hover-items-nav hover:shadow-sm cursor-pointer">
                     <img src="img/img-conta-steam.png" alt="Conta Steam" class="h-4 shadow-md/50 mr-2 ml-2">
                     <li class="text-shadow-sm/15 text-[13px] leading-[34px]">Sua Loja</li>
                 </div>
+
+                <!-- NAV ITEMS -->
                 <li class="nav-li hover-items-nav">Novidades e tendências</li>
                 <li class="nav-li hover-items-nav">Categorias</li>
                 <li class="nav-li hover-items-nav">Loja de Pontos</li>
                 <li class="nav-li hover-items-nav">Notícias</li>
                 <li class="nav-li hover-items-nav">Laboratório</li>
+
             </ul>
 
+            <!--BARRA DE BUSCAR-->
             <div class="flex mt-2 mr-2 ml-2 relative z-0">
                 <input type="text" placeholder="Buscar" class="relative w-full bg-buscar rounded italic outline-1 outline-gray-800 hover:outline-1 hover:outline-white placeholder-gray-950 text-lg">
                 <img src="img/search_icon_btn.png" alt="Botão de pesquisa" class="absolute cursor-pointer right-0 bottom-0 h-7">
             </div>
+
         </nav>
     </header>
+    <!--FIM DO HEADER-->
+
         <!-- MAIN CONTENT -->
         <main>
             <!-- DESTAQUES E RECOMENDADOS -->
              
             <div class="bg-linear-to-t from-destaque2 from-15% to-destaque1 to-80% pt-8 pb-8 flex flex-col flex-nowrap pr-3 pl-3">
-                <h3 class="text-white text-[14px] tracking-widest mb-[4px]">DESTAQUES E RECOMENDADOS</h3>
-                <div class="flex overflow-auto scrollbar-thin scrollbar-thumb-scrollbar scrollbar-track-destaque2">
-                    <div class="flex flex-col flex-nowrap">
-                        <div class="flex flex-col w-120 mr-2 mb-6 shadow-md/30 pb-2">
+                
+                <!-- TITULO DA CATEGORIA -->
+                <h3 class="category-title">DESTAQUES E RECOMENDADOS</h3>
+
+                <!-- DESTAQUE DIV -->
+                <div class="scrollbar-destaque">
+
+                    <!-- DESTAQUE CONTAINERS -->
+                    <div>
+                        <div class="div-destaques-discount">
                             <img src="img/ghostrecon-breakpoint.png" alt="Jogo em destaque" class="w-120 h-75">
-                            <h1 class="text-white font-bold ml-1 mt-1 text-[18px]">Tom Clancy's Ghost Recon® Breakpoint</h1>
+                            <h1 class="game-title-destaque">Tom Clancy's Ghost Recon® Breakpoint</h1>
                             <div class="flex ml-1 mt-2">
                                 <div class="flex box-shadow items-center bg-preco ">
                                     <p class="bg-desconto text-letradesconto text-[14px] leading-6 p-[2px] font-bold">-90%</p>
@@ -61,10 +81,10 @@
                         </div>
                     </div>
 
-                    <div class="flex flex-col flex-nowrap">
-                        <div class="flex flex-col w-120 mr-2 shadow-md/30 pb-3">
+                    <div>
+                        <div class="flex flex-col w-120 mr-2 shadow-md/30 pb-4">
                             <img src="img/callofdutyblackops6.png" alt="Jogo em destaque" class="w-120 h-75">
-                            <h1 class="text-white font-bold ml-1 mt-1 mb-1 text-[18px]">Call of Duty® Black Ops 6</h1>
+                            <h1 class="game-title-destaque">Call of Duty® Black Ops 6</h1>
                             <div class="flex ml-1 mt-2">
                                 <div class="flex items-center pb-2">
                                     <p class="pr-1 pl-2 text-white text-[11px] leading-3 font-semibold">R$ 339,00</p>
@@ -73,10 +93,10 @@
                         </div>
                     </div>
 
-                    <div class="flex flex-col flex-nowrap">
-                        <div class="flex flex-col w-120 mr-2 shadow-md/30 pb-2">
+                    <div>
+                        <div class="div-destaques-discount">
                             <img src="img/hogwartslegacy.png" alt="Jogo em destaque" class="w-120 h-75">
-                            <h1 class="text-white font-bold ml-1 mt-1 text-[18px]">Hogwarts Legacy</h1>
+                            <h1 class="game-title-destaque">Hogwarts Legacy</h1>
                             <div class="flex ml-1 mt-2">
                                 <div class="flex box-shadow items-center bg-preco">
                                     <p class="bg-desconto text-letradesconto text-[14px] leading-6 p-[2px] font-bold">-80%</p>
@@ -87,10 +107,10 @@
                         </div>
                     </div>
 
-                    <div class="flex flex-col flex-nowrap">
+                    <div>
                         <div class="flex flex-col w-120 mr-2 shadow-md/30 pb-4">
                             <img src="img/capsule_616x353.jpg" alt="Jogo em destaque" class="w-120 h-75">
-                            <h1 class="text-white font-bold ml-1 mt-1 text-[18px]">GTFO</h1>
+                            <h1 class="game-title-destaque">GTFO</h1>
                             <div class="flex ml-1 mt-2">
                                 <div class="flex items-center pb-2">
                                     <p class="pr-1 pl-2 text-white text-[11px] leading-3 font-semibold">R$ 74,99</p>
@@ -99,10 +119,10 @@
                         </div>
                     </div>
 
-                    <div class="flex flex-col flex-nowrap">
+                    <div>
                         <div class="flex flex-col w-120 mr-2 shadow-md/30 pb-4">
                             <img src="img/peak.png" alt="Jogo em destaque" class="w-120 h-75">
-                            <h1 class="text-white font-bold ml-1 mt-1 text-[18px]">PEAK</h1>
+                            <h1 class="game-title-destaque">PEAK</h1>
                             <div class="flex ml-1 mt-2">
                                 <div class="flex items-center pb-2">
                                     <p class="pr-1 pl-2 text-white text-[11px] leading-3 font-semibold">R$ 23,99</p>
@@ -111,10 +131,10 @@
                         </div>
                     </div>
 
-                    <div class="flex flex-col flex-nowrap">
+                    <div>
                         <div class="flex flex-col w-120 mr-2 shadow-md/30 pb-4">
                             <img src="img/teamfortress2.jpg" alt="Jogo em destaque" class="w-120 h-75">
-                            <h1 class="text-white font-bold ml-1 mt-1 text-[18px]">Team Fortress 2</h1>
+                            <h1 class="game-title-destaque">Team Fortress 2</h1>
                             <div class="flex ml-1 mt-2">
                                 <div class="flex items-center pb-2">
                                     <p class="pr-1 pl-2 text-white text-[11px] leading-3 font-semibold">Gratuito para jogar</p>
@@ -123,10 +143,10 @@
                         </div>
                     </div>
 
-                    <div class="flex flex-col flex-nowrap">
+                    <div>
                         <div class="flex flex-col w-120 mr-2 shadow-md/30 pb-4">
                             <img src="img/battlefield-6.jpg" alt="Jogo em destaque" class="w-120 h-75">
-                            <h1 class="text-white font-bold ml-1 mt-1 text-[18px]">Battlefield™ 6</h1>
+                            <h1 class="game-title-destaque">Battlefield™ 6</h1>
                             <div class="flex ml-1 mt-2">
                                 <div class="flex items-center pb-2">
                                     <p class="pr-1 pl-2 text-white text-[11px] leading-3 font-semibold">R$ 299,00</p>
@@ -135,10 +155,10 @@
                         </div>
                     </div>
 
-                    <div class="flex flex-col flex-nowrap">
-                        <div class="flex flex-col w-120 mr-2 shadow-md/30 pb-2">
+                    <div>
+                        <div class="div-destaques-discount">
                             <img src="img/the-last-of-us-part-1.jpg" alt="Jogo em destaque" class="w-120 h-75">
-                            <h1 class="text-white font-bold ml-1 mt-1 text-[18px]">The Last of Us™ Part 1</h1>
+                            <h1 class="game-title-destaque">The Last of Us™ Part 1</h1>
                             <div class="flex ml-1 mt-2">
                                 <div class="flex box-shadow items-center bg-preco">
                                     <p class="bg-desconto text-letradesconto text-[14px] leading-6 p-[2px] font-bold">-50%</p>
@@ -149,10 +169,10 @@
                         </div>
                     </div>
 
-                    <div class="flex flex-col flex-nowrap">
-                        <div class="flex flex-col w-120 mr-2 shadow-md/30 pb-2">
+                    <div>
+                        <div class="div-destaques-discount">
                             <img src="img/wildgate.jpg" alt="Jogo em destaque" class="w-120 h-75">
-                            <h1 class="text-white font-bold ml-1 mt-1 text-[18px]">Wildgate</h1>
+                            <h1 class="game-title-destaque">Wildgate</h1>
                             <div class="flex ml-1 mt-2">
                                 <div class="flex box-shadow items-center bg-preco">
                                     <p class="bg-desconto text-letradesconto text-[14px] leading-6 p-[2px] font-bold">-34%</p>
@@ -163,10 +183,10 @@
                         </div>
                     </div>
 
-                    <div class="flex flex-col flex-nowrap">
+                    <div>
                         <div class="flex flex-col w-120 mr-2 shadow-md/30 pb-4">
                             <img src="img/delta-force.jpg" alt="Jogo em destaque" class="w-120 h-75">
-                            <h1 class="text-white font-bold ml-1 mt-1 text-[18px]">Delta Force</h1>
+                            <h1 class="game-title-destaque">Delta Force</h1>
                             <div class="flex ml-1 mt-2">
                                 <div class="flex items-center pb-2">
                                     <p class="pr-1 pl-2 text-white text-[11px] leading-3 font-semibold">Gratuito para jogar</p>
@@ -175,10 +195,10 @@
                         </div>
                     </div>
 
-                    <div class="flex flex-col flex-nowrap">
+                    <div>
                         <div class="flex flex-col w-120 mr-2 shadow-md/30 pb-4">
                             <img src="img/warframe.jpg" alt="Jogo em destaque" class="w-120 h-75">
-                            <h1 class="text-white font-bold ml-1 mt-1 text-[18px]">Warframe</h1>
+                            <h1 class="game-title-destaque">Warframe</h1>
                             <div class="flex ml-1 mt-2">
                                 <div class="flex items-center pb-2">
                                     <p class="pr-1 pl-2 text-white text-[11px] leading-3 font-semibold">Gratuito para jogar</p>
@@ -187,10 +207,10 @@
                         </div>
                     </div>
 
-                    <div class="flex flex-col flex-nowrap">
+                    <div>
                         <div class="flex flex-col w-120 mr-2 shadow-md/30 pb-4">
                             <img src="img/star-wars-battlefront-2.jpg" alt="Jogo em destaque" class="w-120 h-75">
-                            <h1 class="text-white font-bold ml-1 mt-1 text-[18px]">Star Wars™ Battlefront™ II</h1>
+                            <h1 class="game-title-destaque">Star Wars™ Battlefront™ II</h1>
                             <div class="flex ml-1 mt-2">
                                 <div class="flex items-center pb-2">
                                     <p class="pr-1 pl-2 text-white text-[11px] leading-3 font-semibold">R$ 159,00</p>
@@ -212,11 +232,11 @@
                 </div>
 
                 <div class="flex flex-nowrap items-center justify-between">
-                    <h3 class="text-white mb-[4px] text-[14px] tracking-widest">DESCONTOS E EVENTOS</h3>
+                    <h3 class="category-title">DESCONTOS E EVENTOS</h3>
                     <h2 class="text-gray-500 font-semibold text-[12px] tracking-normal cursor-pointer">Mais<i class="fa-solid fa-angle-right"></i></h2>
                 </div>
                 
-            <div class="flex flex-nowrap overflow-auto pb-4 scrollbar-thin scrollbar-thumb-scrollbar scrollbar-track-destaque2">
+            <div class="scrollbar-maincolor">
 
                     <div class="flex flex-nowrap flex-col mr-3">
                         <img src="img/spotlight_image_nomanssky.png" alt="Jogo em destaque" class="relative z-30">
@@ -552,10 +572,10 @@
         <div class="bg-maincolor pl-2 pr-3 pt-9">
 
             <div>
-                <h3 class="text-white pb-[4px] text-[14px] uppercase tracking-[1px]">Explore por Categoria</h3>
+                <h3 class="category-title">Explore por Categoria</h3>
             </div>
 
-            <div class="flex flex-nowrap overflow-auto pb-4 scrollbar-thin scrollbar-thumb-scrollbar scrollbar-track-destaque2">
+            <div class="scrollbar-maincolor">
                 
                 <div class="mr-3 group relative min-w-53 min-h-52 max-w-53 max-h-52 rounded-xl overflow-hidden">
                     <div class="transform group-hover:scale-110 transition duration-200 rounded-xl group-hover:saturate-200"><img src="img/esportes.webp" alt="Terror" class="rounded-xl"></div>
@@ -726,7 +746,7 @@
         <div class="bg-maincolor pl-2 pr-3 pt-9">
 
             <div class="flex flex-nowrap items-center justify-between">
-                <h3 class="text-white pb-[4px] text-[14px] uppercase tracking-[0.4px]">Recomendado baseado nos jogos que você joga</h3>
+                <h3 class="category-title">Recomendado baseado nos jogos que você joga</h3>
                 <h2 class="text-gray-500 font-semibold text-[12px] tracking-normal cursor-pointer">Mais<i class="fa-solid fa-angle-right"></i></h2>
             </div>
 
@@ -798,7 +818,7 @@
         <div class="bg-maincolor pl-2 pr-3 pt-9">
 
             <div class="flex flex-nowrap items-center justify-between">
-                <h3 class="text-white pb-[4px] text-[14px] uppercase tracking-[0.4px]">Porque você jogou <strong>ARMA 3</strong></h3>
+                <h3 class="category-title">Porque você jogou <strong>ARMA 3</strong></h3>
             </div>
 
             <div class="flex flex-nowrap overflow-auto scrollbar-thin scrollbar-thumb-scrollbar scrollbar-track-maincolor">

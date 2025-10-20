@@ -55,6 +55,26 @@
     @apply pl-[15px] cursor-pointer text-shadow-sm/15 hover:shadow-sm text-[13px] leading-[34px];
 }
 
+.category-title {
+    @apply text-white pb-[4px] text-[14px] uppercase tracking-[1px];
+}
+
+.scrollbar-maincolor {
+    @apply flex flex-nowrap overflow-auto pb-4 scrollbar-thin scrollbar-thumb-scrollbar scrollbar-track-maincolor;
+}
+
+.scrollbar-destaque {
+    @apply flex overflow-auto scrollbar-thin scrollbar-thumb-scrollbar scrollbar-track-destaque2;
+}
+
+.div-destaques-discount {
+    @apply flex flex-col w-120 mr-2 mb-6 shadow-md/30 pb-2
+}
+
+.game-title-destaque {
+    @apply text-white font-bold ml-1 mt-1 text-[18px];
+}
+
 .box-shadow {
     box-shadow: 0 0 3px rgba(0, 0, 0, 0.4);
 }
