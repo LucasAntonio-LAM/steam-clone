@@ -51,6 +51,8 @@
     --spacing-S1200: 1200px;
 }
 
+/* Apply Estilos Grandes */
+
 .nav-li {
     @apply pl-[15px] cursor-pointer text-shadow-sm/15 hover:shadow-sm text-[13px] leading-[34px];
 }
@@ -74,6 +76,91 @@
 .game-title-destaque {
     @apply text-white font-bold ml-1 mt-1 text-[18px];
 }
+
+.div-normal-price {
+    @apply pr-1 pl-2 text-white text-[11px] leading-3 font-semibold;
+}
+
+.percentage-number {
+    @apply bg-desconto text-letradesconto text-[14px] leading-6 p-[2px] font-bold;
+}
+
+.price-number-destaque {
+    @apply line-through pl-1 text-letraprecooriginal text-[11px] leading-3;
+}
+
+.price-number-discount-destaque {
+    @apply pr-1 text-sm text-letrapreco text-[11px] leading-3 font-semibold pl-[4px];
+}
+
+.div-flex-weekend-offers {
+    @apply flex flex-col bg-no-repeat relative pb-7 top-0 h-full w-77;
+}
+
+.offers-main-title {
+    @apply text-white text-[14px] font-normal uppercase mt-2 ml-4 relative top-0 z-15;
+}
+
+.offers-valid-title {
+    @apply text-gray-300 mt-2 ml-4 text-[12px] font-normal relative top-0 z-15;
+}
+
+.discount-percentage-offers {
+    @apply bg-desconto text-letradesconto p-1 leading-8 text-[26px] font-medium pl-[5px] pr-[5px];
+}
+
+.normal-price-offers {
+    @apply line-through ml-7 text-letraprecooriginal text-[11px] leading-3 pr-[8px];
+}
+
+.discount-price-offers {
+    @apply text-shadow-md text-letrapreco leading-4 text-[15px] pl-[8px] pr-[8px];
+}
+
+.div-size-day-offer-wm {
+    @apply w-78 flex justify-between flex-col;
+}
+
+.div-size-day-offer-mt3 {
+    @apply w-78 flex justify-between flex-col mt-3;
+}
+
+.div-day-offer-background {
+    @apply flex bg-ofertadodia justify-between;
+}
+
+.day-offer-discount-percentage {
+    @apply bg-desconto text-letradesconto p-1 text-[26px] leading-9 font-bold;
+}
+
+.day-offer-normal-price {
+    @apply line-through text-letraprecooriginal text-[11px] leading-3 pr-[8px];
+}
+
+.day-offer-discount-price {
+    @apply text-shadow-md text-letrapreco text-[15px] leading-4 pr-[8px] pl-[8px];
+}
+
+.div-size-explore {
+    @apply mr-3 relative min-w-53 min-h-52 max-w-53 max-h-52 rounded-xl overflow-hidden;
+}
+
+.div-hover-explore {
+    @apply transform group-hover:scale-110 transition duration-200 rounded-xl;
+}
+
+.div-explore-transition-opacity {
+    @apply rounded-xl transition-opacity;
+}
+
+.explore-title {
+    @apply block uppercase font-bold text-blue-600 text-[16px] leading-[19px] bg-white w-fit tracking-[1.1px] pt-[6px] pb-[6px] pl-[12px] pr-[12px] rounded;
+}
+
+
+/* Apply Estilos Grandes */
+
+/* Estilos Gerais */
 
 .box-shadow {
     box-shadow: 0 0 3px rgba(0, 0, 0, 0.4);
