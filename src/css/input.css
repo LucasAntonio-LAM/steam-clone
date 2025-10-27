@@ -157,6 +157,11 @@
     @apply block uppercase font-bold text-blue-600 text-[16px] leading-[19px] bg-white w-fit tracking-[1.1px] pt-[6px] pb-[6px] pl-[12px] pr-[12px] rounded;
 }
 
+.recomended-size {
+    @apply flex flex-nowrap flex-col cursor-pointer shadow-md/30;
+}
+
+
 
 /* Apply Estilos Grandes */
 
